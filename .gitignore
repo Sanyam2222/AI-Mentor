@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+.venv/
+
+# Ignore Flutter build
+app/build/
+app/.dart_tool/
+app/.packages
+app/ios/Pods/
+app/pubspec.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+server/.env
+app/.env
