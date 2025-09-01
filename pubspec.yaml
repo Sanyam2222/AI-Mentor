@@ -1,0 +1,30 @@
+name: ai_mentor_app
+description: A Flutter app for AI Mentor career guidance project
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP package to communicate with backend API
+  http: ^1.1.0
+
+  # State management (optional but stable version)
+  provider: ^6.0.6
+
+  # Toast messages for UI feedback
+  fluttertoast: ^8.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

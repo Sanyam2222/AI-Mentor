@@ -1,9 +1,19 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.utils.model_loader import load_model
 from src.services.ai_service import ask_deepseek
 
 app = FastAPI(title="AI Mentor")
+
+# ===== CORS =====
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # allow all origins for development; replace with your frontend URL in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load Decision Tree model once
 decision_tree_model = load_model("src/model/career_model.pkl")

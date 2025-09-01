@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class CareerService {
-  final String baseUrl = "http://127.0.0.1:8000";
+  final String baseUrl = "http://127.0.0.1:8080";
 
   // Send quiz answers to predict career
   Future<String> predictCareer(List<int> answers) async {
