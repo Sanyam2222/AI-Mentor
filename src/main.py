@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Load Decision Tree model once
-decision_tree_model = load_model("src/model/career_model.pkl")
+decision_tree_model = load_model("model/career_model.pkl")
 
 class UserInput(BaseModel):
     answers: list[int]   # quiz answers (encoded as integers)
