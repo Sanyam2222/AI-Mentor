@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from src.utils.model_loader import load_model
-from src.services.ai_service import ask_deepseek
+from utils.model_loader import load_model
+from services.ai_service import ask_deepseek
 
 app = FastAPI(title="AI Mentor")
 
