@@ -1,8 +1,8 @@
 import pickle
-from src.model.questions import QUESTIONS  # your questions.py
+from model.questions import QUESTIONS  # your questions.py
 
 # Load the trained decision tree model
-with open("src/model/career_model.pkl", "rb") as f:
+with open("model/career_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 def predict_career(user_answers: list) -> str:
