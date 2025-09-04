@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter
 from pydantic import BaseModel
-from src.model.career_predictor import predict_career
+from model.career_predictor import predict_career
 
 router = APIRouter()
 
