@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Load the career tree once
-TREE_PATH = Path("career_tree.json").parent 
+TREE_PATH = Path("career_tree.json")
 with open(TREE_PATH, "r", encoding="utf-8") as f:
     career_tree = json.load(f)
 
