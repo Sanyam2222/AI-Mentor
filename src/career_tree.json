@@ -1,0 +1,302 @@
+{
+  "question": "🌟 If you had a chance to do something from your heart, what would it be?",
+  "options": [
+    {
+      "text": "💻 Build something with technology",
+      "tooltip": "This helps us see your curiosity and problem-solving.",
+      "next": {
+        "question": "💡 Which tech-related activity excites you most?",
+        "options": [
+          {
+            "text": "🖥️ Coding / problem-solving",
+            "career": {
+              "career_suggestion": "Software Engineer / AI / Data Scientist",
+              "next_steps": [
+                "Learn Python and Data Structures",
+                "Build small projects and apps",
+                "Participate in coding competitions"
+              ],
+              "motivation": "Your interests and strengths align with technology and problem-solving!"
+            }
+          },
+          {
+            "text": "🤖 Inventing gadgets / fixing machines",
+            "career": {
+              "career_suggestion": "Mechanical / Robotics Engineer",
+              "next_steps": [
+                "Learn basic robotics and mechanics",
+                "Work on DIY projects or kits",
+                "Explore competitions or workshops"
+              ],
+              "motivation": "You enjoy hands-on building and problem-solving, perfect for Mechanical / Robotics!"
+            }
+          },
+          {
+            "text": "🔌 Working with circuits / electronics",
+            "career": {
+              "career_suggestion": "Electrical / Electronics Engineer",
+              "next_steps": [
+                "Study basic electronics and circuits",
+                "Join electronics or Arduino projects",
+                "Experiment with small devices"
+              ],
+              "motivation": "Your interest in electronics aligns well with Electrical / Electronics engineering!"
+            }
+          },
+          {
+            "text": "📱 Building apps or websites",
+            "career": {
+              "career_suggestion": "Web / Mobile Developer",
+              "next_steps": [
+                "Learn HTML, CSS, JavaScript",
+                "Build small websites or apps",
+                "Contribute to open-source projects"
+              ],
+              "motivation": "Creating software solutions suits your creative and logical skills!"
+            }
+          },
+          {
+            "text": "🧪 Doing experiments / research",
+            "career": {
+              "career_suggestion": "Scientist / AI Researcher / Data Scientist",
+              "next_steps": [
+                "Learn Python, Data Analysis, Machine Learning basics",
+                "Join research projects or science clubs",
+                "Participate in competitions or online challenges"
+              ],
+              "motivation": "Exploring, experimenting, and analyzing is your strength – ideal for research careers!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "🎨 Create art, music, writing",
+      "tooltip": "We want to know what sparks your creativity.",
+      "next": {
+        "question": "🎭 Which creative activity excites you most?",
+        "options": [
+          {
+            "text": "🖌️ Drawing / designing",
+            "career": {
+              "career_suggestion": "Designer / Animator / Illustrator",
+              "next_steps": [
+                "Learn design tools (Photoshop, Illustrator, Figma)",
+                "Build a creative portfolio",
+                "Experiment with small projects"
+              ],
+              "motivation": "Your creativity and design interest make you perfect for visual arts careers!"
+            }
+          },
+          {
+            "text": "✍️ Writing stories, blogs, scripts",
+            "career": {
+              "career_suggestion": "Writer / Content Creator / Copywriter",
+              "next_steps": [
+                "Start writing blogs or stories",
+                "Learn creative writing techniques",
+                "Build an online portfolio"
+              ],
+              "motivation": "Your love for writing can guide you to impactful communication careers!"
+            }
+          },
+          {
+            "text": "🎤 Performing, singing, acting",
+            "career": {
+              "career_suggestion": "Musician / Actor / Performer",
+              "next_steps": [
+                "Join performing arts workshops",
+                "Practice regularly and record performances",
+                "Participate in local events or competitions"
+              ],
+              "motivation": "Your passion for performing can shape a successful career in arts and entertainment!"
+            }
+          },
+          {
+            "text": "📸 Photography / videography",
+            "career": {
+              "career_suggestion": "Photographer / Filmmaker",
+              "next_steps": [
+                "Learn camera basics and editing tools",
+                "Build a portfolio of photos or videos",
+                "Experiment with projects and storytelling"
+              ],
+              "motivation": "Your visual storytelling skills can lead to creative media careers!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "🤝 Help people / social work",
+      "tooltip": "This shows your empathy and desire to make a difference.",
+      "next": {
+        "question": "💖 Which activity feels natural for you?",
+        "options": [
+          {
+            "text": "📚 Teaching / mentoring",
+            "career": {
+              "career_suggestion": "Teacher / Trainer / Counselor",
+              "next_steps": [
+                "Learn teaching or coaching techniques",
+                "Volunteer or mentor younger students",
+                "Explore educational resources"
+              ],
+              "motivation": "Your guidance and empathy suit educational and mentorship careers!"
+            }
+          },
+          {
+            "text": "🏥 Caring for people / health",
+            "career": {
+              "career_suggestion": "Doctor / Nurse / Therapist",
+              "next_steps": [
+                "Explore medical or healthcare courses",
+                "Volunteer at clinics or hospitals",
+                "Develop interpersonal and empathetic skills"
+              ],
+              "motivation": "Your caring nature aligns with health and therapy careers!"
+            }
+          },
+          {
+            "text": "🌱 Volunteering / community service",
+            "career": {
+              "career_suggestion": "Social Worker / NGO Professional",
+              "next_steps": [
+                "Join social service programs",
+                "Learn community management and outreach",
+                "Engage in local projects"
+              ],
+              "motivation": "Your empathy and activism make you ideal for social work careers!"
+            }
+          },
+          {
+            "text": "👔 Managing or leading groups",
+            "career": {
+              "career_suggestion": "Manager / Team Leader / Entrepreneur",
+              "next_steps": [
+                "Develop leadership and communication skills",
+                "Lead small group projects",
+                "Take initiative in school or community programs"
+              ],
+              "motivation": "Your leadership ability can guide you to management and entrepreneurial roles!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "🔬 Explore / research",
+      "tooltip": "We’re curious about your love for discovery.",
+      "next": {
+        "question": "🔍 Which type of exploration excites you most?",
+        "options": [
+          {
+            "text": "🌿 Nature / environment",
+            "career": {
+              "career_suggestion": "Environmental Scientist / Ecologist",
+              "next_steps": [
+                "Participate in environmental projects",
+                "Learn about ecology and conservation",
+                "Volunteer for sustainability programs"
+              ],
+              "motivation": "Your curiosity about nature fits environmental science careers!"
+            }
+          },
+          {
+            "text": "🧫 Lab experiments / chemistry",
+            "career": {
+              "career_suggestion": "Chemist / Biotech / Pharma",
+              "next_steps": [
+                "Learn lab techniques and safety",
+                "Join science clubs or experiments",
+                "Take courses in chemistry or biotechnology"
+              ],
+              "motivation": "Your love for experimentation suits lab-based science careers!"
+            }
+          },
+          {
+            "text": "⚙️ Physics / engineering experiments",
+            "career": {
+              "career_suggestion": "Engineer / Researcher",
+              "next_steps": [
+                "Learn basic engineering principles",
+                "Work on small experiments or projects",
+                "Explore robotics, mechanics, or electronics"
+              ],
+              "motivation": "Your curiosity and analytical skills fit engineering or research fields!"
+            }
+          },
+          {
+            "text": "🤖 Technology / AI experiments",
+            "career": {
+              "career_suggestion": "AI Engineer / Data Scientist / Robotics",
+              "next_steps": [
+                "Learn Python, AI, and data analysis basics",
+                "Build small AI projects",
+                "Participate in competitions or hackathons"
+              ],
+              "motivation": "Your tech curiosity aligns with AI, data, and robotics careers!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "🏆 Achieve / lead",
+      "tooltip": "We want to understand your drive and ambition.",
+      "next": {
+        "question": "👑 Which leadership path excites you most?",
+        "options": [
+          {
+            "text": "💼 Start your own business",
+            "career": {
+              "career_suggestion": "Entrepreneur / Startup Founder",
+              "next_steps": [
+                "Learn basics of business and finance",
+                "Start small projects or side hustles",
+                "Connect with mentors and startup communities"
+              ],
+              "motivation": "Your ambition and initiative make entrepreneurship ideal for you!"
+            }
+          },
+          {
+            "text": "👥 Lead a team / project",
+            "career": {
+              "career_suggestion": "Manager / Project Lead",
+              "next_steps": [
+                "Develop leadership and team skills",
+                "Lead school or community projects",
+                "Learn project management basics"
+              ],
+              "motivation": "Your leadership qualities suit management roles perfectly!"
+            }
+          },
+          {
+            "text": "🏅 Compete in sports / achievements",
+            "career": {
+              "career_suggestion": "Athlete / Sports Professional",
+              "next_steps": [
+                "Train regularly in your chosen sport",
+                "Join competitions or leagues",
+                "Learn teamwork and discipline"
+              ],
+              "motivation": "Your competitive spirit is perfect for sports and performance careers!"
+            }
+          },
+          {
+            "text": "💬 Inspire / influence others",
+            "career": {
+              "career_suggestion": "Motivational Speaker / Leader / Coach",
+              "next_steps": [
+                "Develop communication and speaking skills",
+                "Engage in mentoring and coaching",
+                "Participate in public speaking opportunities"
+              ],
+              "motivation": "Your influence and inspiration can guide others and shape a leadership path!"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
